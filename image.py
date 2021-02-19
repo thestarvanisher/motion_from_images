@@ -11,9 +11,12 @@ class Image:
 
     def setKpDesc(self, kp=None, des=None):
         self.kp = kp
-        self.des = kp
+        self.des = des
 
     def getDesc(self):
         return self.des
+
+    def getKp(self):
+        return self.kp
         
 
